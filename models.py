@@ -2,9 +2,9 @@ from flask_sqlalchemy import  SQLAlchemy
 from werkzeug import generate_password_hash, check_password_hash
 
 import geocoder
-import urllib.request
+import urllib
 import json
-import urllib.parse
+
 
 
 db = SQLAlchemy()
